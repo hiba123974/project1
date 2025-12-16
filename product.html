@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ecommerce-frontend-design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a href="index.html" class="logo"><img src="assets/assets/Layout/Brand/logo-colored.png" alt="Brand" class="logo-img"></a>
+      <form class="search" id="searchForm" role="search">
+        <div class="category">
+          <select aria-label="Category">
+            <option>All category</option>
+            <option>Electronics</option>
+            <option>Home & outdoor</option>
+          </select>
+        </div>
+        <input type="text" id="searchInput" placeholder="Search products" aria-label="Search products">
+        <button type="submit" aria-label="Search">
+          <img src="assets/assets/Layout/Form/input-group/Icon/control/Vector.png" alt="Search" width="18" height="18">
+        </button>
+      </form>
+      <div class="actions">
+        <a href="account.html" class="action">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-3-3.87"></path>
+            <path d="M4 21v-2a4 4 0 0 1 3-3.87"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+          <span>Account</span>
+        </a>
+        <a href="#" class="action">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 5h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H8l-4 4V7a2 2 0 0 1 2-2z"></path>
+          </svg>
+          <span>Messages</span>
+        </a>
+        <a href="account.html#orders" class="action">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 2h6l2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4l2-2z"></path>
+            <path d="M9 8h6"></path>
+            <path d="M9 12h6"></path>
+            <path d="M9 16h6"></path>
+          </svg>
+          <span>Orders</span>
+        </a>
+        <a href="wishlist.html" class="action">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"></path>
+          </svg>
+          <span>Wishlist</span>
+        </a>
+        <a href="cart.html" class="action cart">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <span>Cart</span>
+          <span class="badge" id="cartCount">0</span>
+        </a>
+      </div>
+    </div>
+    <nav class="site-nav">
+      <div class="container nav-row">
+        <ul class="top-links" id="mainMenu">
+          <li><a href="#">All category</a></li>
+          <li><a href="#">Hot offers</a></li>
+          <li><a href="#">Gift boxes</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Menu item</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+        <div class="top-utils">
+          <div>English, USD</div>
+          <span class="sep">|</span>
+          <div>Ship to <img class="flag" src="assets/assets/Layout1/Image/flags/US@2x.png" alt="US"></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <div class="breadcrumbs"><a href="index.html">Home</a> / <a href="shop.html">Clothings</a> / <a href="shop.html">Men's wear</a> / Summer clothing</div>
+      <div class="product-layout">
+        <section>
+          <div class="panel">
+            <h1 style="margin:0 0 8px 0; font-size:22px;">Mens Long Sleeve T-shirt Cotton Base Layer Slim Muscle</h1>
+            <div class="meta"><span class="tag-green">In stock</span><span>32 reviews</span><span>154 sold</span></div>
+            <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:12px; margin:12px 0;">
+              <div class="panel"><div class="price">$88.00</div><div class="meta">50–100 pcs</div></div>
+              <div class="panel"><div class="price">$90.00</div><div class="meta">100–700 pcs</div></div>
+              <div class="panel"><div class="price">$78.00</div><div class="meta">700+ pcs</div></div>
+            </div>
+            <table class="table">
+              <tr><td>Price</td><td>Negotiable</td></tr>
+              <tr><td>Style</td><td>Classic style</td></tr>
+              <tr><td>Material</td><td>Plastic material</td></tr>
+              <tr><td>Design</td><td>Modern</td></tr>
+              <tr><td>Customization</td><td>Customized logo and custom packages</td></tr>
+              <tr><td>Protection</td><td>Refund Policy</td></tr>
+              <tr><td>Warranty</td><td>2 years full warranty</td></tr>
+            </table>
+            <div style="display:flex; gap:12px; align-items:center; margin-top:12px;">
+              <label for="sizeSelect" style="font-weight:600;">Size</label>
+              <select id="sizeSelect" aria-label="Choose size" style="padding:8px; border:1px solid var(--border); border-radius:6px;">
+                <option value="S">S</option>
+                <option value="M" selected>M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+              </select>
+              <span class="meta">Selected: <span id="sizeSelected">M</span></span>
+            </div>
+            <div style="margin-top:12px; display:flex; gap:8px;">
+              <button class="btn primary">Add to cart</button>
+              <button class="btn">Send inquiry</button>
+            </div>
+          </div>
+          <div class="panel" style="margin-top:12px;">
+            <div class="tabs">
+              <div style="display:flex; gap:12px; margin-bottom:12px;">
+                <div class="btn">Description</div>
+                <div class="btn">Reviews</div>
+                <div class="btn">Shipping</div>
+                <div class="btn">About seller</div>
+              </div>
+            </div>
+            <p style="color:var(--muted);">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <table class="table">
+              <tr><td>Model</td><td>#8786867</td></tr>
+              <tr><td>Size</td><td>34mm x 450mm x 19mm</td></tr>
+              <tr><td>Memory</td><td>8GB RAM</td></tr>
+            </table>
+          </div>
+          <div class="panel" style="margin-top:12px;">
+            <h3 style="margin:0 0 12px 0;">Related products</h3>
+            <div class="grid">
+              <div class="card"><img class="thumb" src="assets/assets/Image/tech/image 85.png" alt="Smartwatch"><h4>Smartwatch</h4><div class="price">$32.00–$40.00</div></div>
+              <div class="card"><img class="thumb" src="assets/assets/Image/tech/image 86.png" alt="Headphones"><h4>Headphones</h4><div class="price">$32.00–$40.00</div></div>
+              <div class="card"><img class="thumb" src="assets/assets/Layout/alibaba/Image/cloth/Bitmap.png" alt="Jeans"><h4>Jeans</h4><div class="price">$32.00–$40.00</div></div>
+              <div class="card"><img class="thumb" src="assets/assets/Image/interior/6.png" alt="Kettle"><h4>Kettle</h4><div class="price">$32.00–$40.00</div></div>
+            </div>
+          </div>
+          <div class="discount" style="margin-top:12px;">Super discount on more than 100 USD</div>
+        </section>
+        <aside>
+          <div class="panel">
+            <h3 style="margin:0 0 12px 0;">Supplier</h3>
+            <div class="meta"><span>Germany, Berlin</span><span>Verified</span><span>Worldwide shipping</span></div>
+            <div style="display:grid; gap:8px; margin-top:12px;">
+              <button class="btn">Send inquiry</button>
+              <button class="btn">Seller's profile</button>
+            </div>
+          </div>
+          <div class="panel" style="margin-top:12px;">
+            <h3 style="margin:0 0 12px 0;">You may like</h3>
+            <div class="list">
+              <div class="card-list"><div class="thumb"></div><div class="details"><h3>Mens Blazer Sets</h3><div class="price">$99.50</div></div><div class="actions-col"><button class="btn">Save</button></div></div>
+              <div class="card-list"><div class="thumb"></div><div class="details"><h3>Apple Watch Series</h3><div class="price">$99.50</div></div><div class="actions-col"><button class="btn">Save</button></div></div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container newsletter">
+      <div class="newsletter-left">
+        <h3>Join our newsletter</h3>
+        <p>Get updates on new arrivals and exclusive offers.</p>
+      </div>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" id="newsletterEmail" placeholder="Enter your email" aria-label="Email">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="container footer-columns">
+      <div class="col">
+        <img class="foot-logo-img" src="assets/assets/Layout/Brand/logo-colored.png" alt="Brand">
+        <p>Quality products, curated collections, and great deals.</p>
+        <div class="socials"><img src="assets/assets/Layout/Misc/Group.png" alt="Socials"></div>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Find store</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Blogs</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>Partnership</h4>
+        <ul>
+          <li><a href="#">Become a partner</a></li>
+          <li><a href="#">Affiliate program</a></li>
+          <li><a href="#">Wholesale</a></li>
+          <li><a href="#">Suppliers</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>Information</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Money Refund</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>For users</h4>
+        <ul>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Register</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">My Orders</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>Get app</h4>
+        <div class="store-badges"><img src="assets/assets/Layout/Misc/market-button.png" alt="Store" class="store-badge"></div>
+      </div>
+    </div>
+    <div class="container foot-bottom">
+      <div class="copy">© 2025 Shopper. All rights reserved.</div>
+      <ul class="legal">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Cookies</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
